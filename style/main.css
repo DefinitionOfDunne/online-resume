@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik:300';
+
+body {
+	background-color: white;
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+	color: black;
+}
+
+#content-wrapper {
+	margin: 5rem 10rem;
+}
+
+header {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#title-img {
+	border-radius: 30rem;
+    border: 3px solid black;
+    height: 13rem;
+    float: right;
+}
+
+#title-name {
+	font-size: 5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;	
+}
+
+#title-job {
+	font-size: 2.5rem;
+}
+
+#title-blockquote {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 66%;	
+}
+
+#quotist{
+	text-align: right;
+	width: 66%;
+	font-weight: bolder;
+}
+
+#contact-info {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+.fa {
+	color: black;
+}
+a.icon-link {
+	text-decoration: none;
+	font-size: 4rem;
+	margin: 2rem;
+}
+.main-section-header{
+	font-size: 2.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.main-section-subheader{
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+#main-section-wrapper{
+	width: 66%;
+}
+.date-span {
+	margin-left: 1rem;
+	font-weight: bolder;
+	float: right;
+}
