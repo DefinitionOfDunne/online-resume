@@ -1,85 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Dylan A. Dunne</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" type="text/css" href="style/main.css">
-
+    <meta charset="UTF-8">
+    <title>Dylan A. Dunne</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/mobile.css">
 </head>
+
 <body>
-	<div id="content-wrapper">
-	<!-- HEADER -->
-	<header>
-		<img id="title-img" src="images/avatar-image.jpg"> 
-		<h1 id="title-name">Dylan A. Dunne</h1>
-		<h2 id="title-job">full stack javascript developer</h2>
-		<p id="title-blockquote"> “In the happy land of elegant code and pretty rainbows, there lives a spoil-sport monster called inefficiency.” </p> 
-		<p id="quotist"> -Marijn Haverbeke </p>
-	</header>
-
-	<!-- END HEADER -->
-	<!-- EDUCATION -->
-	<div id="main-section-wrapper">
-	<div id="education">
-	<h1 class="main-section-header">Education</h1>
-		<p>Thinkful Career Path Full Stack Javascript Bootcamp, <span class="date-span"> 2016 </span></p>
-		<p>Grand Valley State University <span class="date-span">2010-2013</span></p>
-	</div>
-	<!-- END EDUCATION -->
-	<!-- PROGRAMMING -->
-	<div id="programming-experience">
-	<h1 class="main-section-header">Programming Skills</h1>
-		<h1 class="main-section-subheader">Front End Skills</h1>
-		<ul>
-			<li>React/Redux As A Framework</li>
-			<li>CSS</li>
-			<li>HTML</li>
-			<li>Object-Oriented and Functional Javascript</li>
-		</ul>
-		<h1 class="main-section-subheader">Back End Skills</h1>
-		<ul>
-			<li>NodeJS</li>
-			<li>Building API"s with ExpressJS</li>
-			<li>Databases such as MongoDB</li>
-			<li>User Authentication and security</li>
-		</ul>
-	</div>
-
-	<!-- END PROGRAMMING -->
-	<!-- LEADERSHIP -->
-
-	<div id="leadership">
-	<h1 class="main-section-header">Leadership & Consulting </h1>
-	<h1 class="main-section-subheader">Dev Team</h1>
-	<h4>Alpha Sigma Phi National Fraternity HQ</h4>
-	<p>Description blah blah blah</p>
-	<p>Description blah blah blah</p>
-	</div>
-
-	<!-- END LEADERSHIP -->
-	<!-- CONTACT/CONNENT -->
-	</div>
-	<!-- END CONTACT/CONNECT -->
-		<div id="contact-info">
-		<div id="icons">
-			<a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
-				<i class="fa fa-github" aria-hidden="true"></i>
-			</a>
-			<a class="icon-link" href="https://www.facebook.com/dylan.dunne.9" target="blank">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-			</a>
-			<a class="icon-link" href="mailto:dylanadunne@gmail.com" target="blank">
-				<i class="fa fa-envelope-o" aria-hidden="true"></i>
-			</a>
-			<a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
-				<i class="fa fa-linkedin" aria-hidden="true"></i>
-			</a>
-		</div>
-	</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+    <div id="content-wrapper">
+        <!-- HEADER -->
+        <header>
+            <h1 id="title-name">Dylan A. Dunne</h1>
+            <img id="title-img" src="images/avatar-image.jpg">
+            <h2 id="title-job">full stack javascript developer</h2>
+            <p id="title-blockquote"> “In the happy land of elegant code and pretty rainbows, there lives a spoil-sport monster called inefficiency.” </p>
+            <p id="quotist"> -Marijn Haverbeke </p>
+        </header>
+        <!-- END HEADER -->
+        <!-- EDUCATION -->
+        <div id="main-section-wrapper">
+            <div class="toggle">
+                <div id="education">
+                    <h1 class="main-section-header toggle-title">Education</h1>
+                    <div class="toggle-inner">
+                        <p>Thinkful Career Path Full Stack Javascript Bootcamp, <span class="date-span"> 2016 </span></p>
+                        <p>Grand Valley State University <span class="date-span">2010-2013</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- END EDUCATION -->
+            <!-- PROGRAMMING -->
+            <div id="programming-experience">
+                <h1 class="main-section-header">Programming Skills</h1>
+                <h1 class="main-section-subheader">Front End Toolbox</h1>
+                <ul>
+                    <li>JavaScript, ES6</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Webpack</li>
+                    <li>CSS</li>
+                    <li>jQuery</li>
+                    <li>HTML</li>
+                    <li>Bootstrap</li>
+                    <li>Object-Oriented and Functional Paradigms</li>
+                    <li>Unit Testing with Mocha, Chai, Supertest</li>
+                </ul>
+                <h1 class="main-section-subheader">Back End Toolbox</h1>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>Node Package Manager</li>
+                    <li>Express</li>
+                    <li>MongoDB & Mongoose</li>
+                    <li>PassportJS</li>
+                    <li>JSON Web Tokens</li>
+                </ul>
+                <h1 class="main-section-subheader">Project Management / Product Development</h1>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Trello</li>
+                    <li>Dropbox & Google Drive</li>
+                </ul>
+            </div>
+            <!-- END PROGRAMMING -->
+            <!-- LEADERSHIP -->
+            <div id="leadership">
+                <h1 class="main-section-header">Leadership & Consulting </h1>
+                <h1 class="main-section-subheader">Leadership, Expansion, & Development Coordinator</h1>
+                <h4>Alpha Sigma Phi National Fraternity HQ</h4>
+                <p>Provided on site training and seminars to students at various US universities</p>
+                <p>Managed the success and development for 40+ student groups</p>
+            </div>
+            <!-- END LEADERSHIP -->
+            <!-- CONTACT/CONNENT -->
+        </div>
+        <!-- END CONTACT/CONNECT -->
+        <div id="contact-info">
+            <div id="icons">
+                <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://www.facebook.com/dylan.dunne.9" target="blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="mailto:dylanadunne@gmail.com" target="blank">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

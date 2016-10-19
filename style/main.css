@@ -26,28 +26,33 @@ header {
 #title-name {
 	font-size: 5rem;
 	margin-top: 1rem;
-	margin-bottom: 1rem;	
+	margin-bottom: 1rem;
+	display: inline;	
 }
 
 #title-job {
 	font-size: 2.5rem;
+	display: inline-block;
+	margin: 2rem 0;
 }
 
 #title-blockquote {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	width: 66%;	
+	width: 66%;
+	font-style: italic;	
 }
 
 #quotist{
 	text-align: right;
-	width: 66%;
+	width: 61%;
 	font-weight: bolder;
+	font-style: italic;
 }
 
 #contact-info {
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: 5rem;
 	margin-bottom: 1rem;
 
 }
