@@ -1,15 +1,12 @@
 @media only screen and (max-width: 1000px) {
     body {
-        background-color: rgba(142, 223, 250, 0.47);
+        background-color: gray;
     }
     header {
         height: 100%;
     }
     #content-wrapper {
         margin: 7rem 5rem;
-    }
-    #main-section-wrapper {
-        width: 100%;
     }
     #title-name {
         font-size: 5rem;
@@ -55,7 +52,6 @@
     #contact-info {
         text-align: center;
         margin: 3rem auto;
-        width: 100%;
         height: 16rem;
     }
     .icons {

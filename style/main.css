@@ -1,27 +1,26 @@
 @import 'https://fonts.googleapis.com/css?family=Rubik:300';
-
 body {
-    background-color: rgba(142, 223, 250, 0.47);
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
     color: rgb(88, 83, 83);
-}
-
-#content-wrapper {
-    margin: 5rem 5rem;
+    max-width: 1300px;
 }
 
 #main-section-wrapper {
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content-wrapper {
+    background-color: lightgrey;
 }
 
 header {
-    margin-top: 1rem;
-    padding-bottom: 2rem;
+    padding: 3rem;
     margin-bottom: 1rem;
+    background: #0d513c;
     height: 20rem;
-    border-style: solid;
-    border-bottom: thin dashed gray;
+    color: lightgrey;
 }
 
 #title-img {
@@ -71,13 +70,15 @@ header {
 }
 
 #contact-info {
+    background: #0d513c;
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 1rem;
+    padding: 2rem;
 }
 
 .fa {
-    color: black;
+    color: lightgrey;
 }
 
 a.icon-link {
@@ -87,7 +88,9 @@ a.icon-link {
 }
 
 .main-section-header {
-    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #4b4949;
+    font-size: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -98,14 +101,37 @@ a.icon-link {
     margin-bottom: 1rem;
 }
 
-#main-section-wrapper {
-    width: 66%;
+.row {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 2rem;
 }
 
-.date-span {
-    margin-left: 1rem;
-    font-weight: bolder;
-    float: right;
+.row-label {
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.row-content {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.info-title {
+    font-size: 2rem;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+#programming-experience,
+#education,
+#leadership {
+    overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 li,
