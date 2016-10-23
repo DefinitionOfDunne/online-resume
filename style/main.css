@@ -130,9 +130,9 @@ a.icon-link {
 }
 
 .row-content {
-    width: 60%;
-    margin: 0 auto;
-    text-align: right;
+    width: 65%;
+    margin: 0rem 0rem 0rem 3rem;
+    text-align: left;
 }
 
 .info-title {
@@ -149,6 +149,8 @@ a.icon-link {
 .main-section-group {
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 #main-section-wrapper {
@@ -192,46 +194,13 @@ a.icon-link {
     color: #380a0a;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #programming-experience,
 #education,
 #leadership {
-    overflow: hidden;
-    margin-bottom: 5rem;
 }
 
 li,
 p,
 h4 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
