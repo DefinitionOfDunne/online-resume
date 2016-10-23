@@ -4,11 +4,7 @@ body {
     box-sizing: border-box;
     color: rgb(88, 83, 83);
     max-width: 1300px;
-}
-
-#main-section-wrapper {
-    width: 90%;
-    margin: 0 auto;
+    font-size: 100%;
 }
 
 #content-wrapper {
@@ -16,53 +12,73 @@ body {
 }
 
 header {
-    padding: 3rem;
-    margin-bottom: 1rem;
-    background: #0d513c;
-    height: 20rem;
+    padding: 0;
+    background: #380a0a;
+    height: 30rem;
     color: lightgrey;
 }
 
+#left-widget {
+    float: left;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+#right-widget {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
 #title-img {
     border-radius: 30rem;
     border: 3px solid black;
-    height: 13rem;
-    float: right;
-    margin-right: 3rem;
+    height: 20rem;
+    margin: 2rem auto;
+    display: block;
 }
-
-#title-name {
-    font-size: 5rem;
+#name-container {
+    width: 100%;
+    padding: .5rem;
+    display: block;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+#name-top {
+    font-size: 4rem;
+    letter-spacing: 6px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    display: inline;
 }
-
+#name-bottom {
+    font-size: 9rem;
+    letter-spacing: 20px;
+    margin: 1rem 0;
+}
 #title-job {
     font-size: 2.5rem;
     display: inline-block;
-    margin: 3rem 0;
+    text-transform: uppercase;
 }
 
 #title-blockquote {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 50%;
+    margin-top: 2rem;
+    width: 75%;
     display: inline-block;
     font-style: italic;
+    font-size: 1rem;
 }
 
 #quotist {
-    text-align: right;
-    width: 50%;
+    width: 100%;
     font-weight: bolder;
     font-style: italic;
+    font-size: 1rem;
 }
 
 #audio-div {
-    display: inline;
-    float: right;
-    margin-top: -4rem;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 #audio-div h3 {
@@ -70,9 +86,8 @@ header {
 }
 
 #contact-info {
-    background: #0d513c;
+    background: #380a0a;
     text-align: center;
-    margin-top: 5rem;
     margin-bottom: 1rem;
     padding: 2rem;
 }
@@ -99,6 +114,8 @@ a.icon-link {
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .row {
@@ -113,8 +130,9 @@ a.icon-link {
 }
 
 .row-content {
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
+    text-align: right;
 }
 
 .info-title {
@@ -126,6 +144,84 @@ a.icon-link {
     width: 30%;
     text-align: center;
 }
+
+
+.main-section-group {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main-section-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-section-left {
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+
+#main-section-right {
+    background-color: #4d4a4a;
+    color: white;
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+
+#contact-details {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#contact-details p {
+    font-size: 2rem;
+}
+
+#toolbox {
+    text-align: center;
+}
+
+#toolbox h1 {
+    color: #380a0a;
+}
+
+#contact-details h1 {
+    color: #380a0a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #programming-experience,
 #education,

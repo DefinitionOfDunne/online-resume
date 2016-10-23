@@ -3,133 +3,151 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dylan A. Dunne</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="style/mobile.css">
+    <link rel="stylesheet" type="text/css" href="style/mobile-small.css">
 </head>
 
 <body>
     <div id="content-wrapper">
         <!-- HEADER -->
         <header>
-            <h1 id="title-name">Dylan A.</h1>
-            <h1 id="title-name">Dunne</h1>
-            <img id="title-img" src="images/avatar-image.jpg">
-            <h2 id="title-job">full stack javascript developer</h2>
-            <p id="title-blockquote"> “In the happy land of elegant code and pretty rainbows, there lives a spoil-sport monster called inefficiency.” </p>
-            <p id="quotist"> -Marijn Haverbeke </p>
-            <div id='audio-div'>
-                <h3><i class="fa fa-microphone" aria-hidden="true"></i>
+            <div id="left-widget">
+                <div id="name-container">
+                    <h1 id="name-top">Dylan Andrew</h1>
+                    <h1 id="name-bottom">Dunne</h1>
+                </div>
+                <h2 id="title-job">full stack web developer</h2>
+                <p id="title-blockquote"> “In the happy land of elegant code and pretty rainbows, there lives a spoil-sport monster called inefficiency.” </p>
+                <p id="quotist"> -Marijn Haverbeke </p>
+            </div>
+            <div id="right-widget">
+                <img id="title-img" src="images/avatar-image.jpg">
+                <div id='audio-div'>
+                    <h3><i class="fa fa-microphone" aria-hidden="true"></i>
             Listen Along With My Audio CV Commentary!
             </h3>
-                <audio controls>
-                    <source src="dyl.mp3" type="audio/mpeg">
-                </audio>
+                    <audio controls>
+                        <source src="dyl.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
         </header>
         <!-- END HEADER -->
         <!-- EDUCATION -->
         <div id="main-section-wrapper">
-            <div id="programming-experience">
-                <h1 class="main-section-header">Web Development</h1>
-                <div class='row'>
-                    <div class='row-label'>
-                        <p class='info-title'> Thinkful</p>
-                        <p class='info'>Web Development Bootcamp</p>
-                        <p class='info'>April - Sept '16</p>
-                    </div>
-                    <div class='row-content'>
-                        <p>Thinkful's Web Development Bootcamp description description description description description description description description descriptiondescription description description description description description description description description description description description description description description description description descriptiondescription description description description description description description description description </p>
+            <div id="main-section-left">
+                <div id="programming-experience" class="main-section-group">
+                    <h1 class="main-section-header">Web Development</h1>
+                    <div class='row'>
+                        <div class='row-label'>
+                            <p class='info-title'> Thinkful</p>
+                            <p class='info'>Web Development Bootcamp</p>
+                            <p class='info'>April - Sept '16</p>
+                        </div>
+                        <div class='row-content'>
+                            <p>Thinkful's Web Development Bootcamp description description description description description description description description descriptiondescription description description description description description description description description description description description description description description description description descriptiondescription description description description description description description description description </p>
+                        </div>
                     </div>
                 </div>
-                <div class='column'>
-                    <h1 class="main-section-subheader">Front End Toolbox</h1>
+                <!-- END EDUCATION -->
+                <!-- PROGRAMMING -->
+                <!-- END PROGRAMMING -->
+                <!-- LEADERSHIP -->
+                <div id="leadership" class="main-section-group">
+                    <h1 class="main-section-header">Leadership & Consulting </h1>
+                    <div class="row">
+                        <div class="row-label">
+                            <p class='info-title'>Leadership Development Coordinator</p>
+                            <p class='info-date'>Alpha Sigma Phi HQ</p>
+                            <p class='info-date'>June '13 - June '15</p>
+                        </div>
+                        <div class='row-content'>
+                            <p>Provided on site training and seminars to students at various US universities</p>
+                            <p>Managed the success and development for 40+ student groups</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="education" class="main-section-group">
+                    <h1 class="main-section-header">Education</h1>
+                    <div class='row'>
+                        <div class='row-label'>
+                            <p class='info-title'> Grand Valley State University</p>
+                            <p class='info-date'>Jan '10 - May '13</p>
+                        </div>
+                        <div class='row-content'>
+                            <p>Bachelor of Science in Professional Writing & Psychology </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-section-right">
+                <div id="toolbox">
+                    <h1 class="main-section-header">Web Dev Toolbox</h1>
+                    <h1 class="main-section-subheader">Front End</h1>
                     <ul>
                         <li>JavaScript, ES6</li>
                         <li>React</li>
+                        <li>Redux</li>
                         <li>Webpack</li>
                         <li>CSS</li>
+                        <li>HTML</li>
+                        <li>Babel</li>
                         <li>Bootstrap</li>
-                        <li>Unit Testing w/ Mocha, Chai</li>
+                        <li>Testing w/ Mocha, Chai</li>
                     </ul>
-                </div>
-                <div class='column'>
-                    <h1 class="main-section-subheader">Project Management</h1>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Trello</li>
-                        <li>Dropbox</li> 
-                        <li>Google Drive</li>
-                    </ul>
-                </div>
-                <div class='column'>
-                    <h1 class="main-section-subheader">Back End Toolbox</h1>
+                    <h1 class="main-section-subheader">Back End</h1>
                     <ul>
                         <li>NodeJS</li>
                         <li>Node Package Manager</li>
                         <li>Express</li>
-                        <li>MongoDB & Mongoose</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose</li>
                         <li>PassportJS</li>
                         <li>JSON Web Tokens</li>
                     </ul>
+                <h1 class="main-section-subheader">Project Management</h1>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Trello</li>
+                    <li>Dropbox</li>
+                    <li>Google Drive</li>
+                </ul>
+                </div>
+                <div id="contact-details">
+                <h1 class="main-section-header">Let's Work!</h1>
+                    <p>(231) 838 4805</p>
+                    <p>DYLANADUNNE</p>
+                    <p>@GMAIL.COM</p>
                 </div>
             </div>
-            <!-- END EDUCATION -->
-            <!-- PROGRAMMING -->
-            <!-- END PROGRAMMING -->
-            <!-- LEADERSHIP -->
-            <div id="leadership">
-                <h1 class="main-section-header">Leadership & Consulting </h1>
-                <div class="row">
-                    <div class="row-label">
-                            <p class='info-title'>Leadership & Development Coordinator</p>
-                            <p class='info-date'>Alpha Sigma Phi HQ</p>
-                            <p class='info-date'>June '13 - June '15</p>
-                            </div>
-                            <div class='row-content'>
-                                <p>Provided on site training and seminars to students at various US universities</p>
-                                <p>Managed the success and development for 40+ student groups</p>
-                            </div>
-                        </div>
-                </div>
-            <div id="education">
-                <h1 class="main-section-header">Education</h1>
-                <div class='row'>
-                    <div class='row-label'>
-                        <p class='info-title'> Grand Valley State University</p>
-                        <p class='info-date'>Jan '10 - May '13</p>
-                    </div>
-                    <div class='row-content'>
-                        <p>Bachelor of Science in Professional Writing & Psychology </p>
-                    </div>
-                </div>
+        </div>
+        <!-- END LEADERSHIP -->
+        <!-- CONTACT/CONNENT -->
+        <!-- END CONTACT/CONNECT -->
+        <div id="contact-info">
+            <div>
             </div>
+            <div id="icons">
+                <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://www.facebook.com/dylan.dunne.9" target="blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="mailto:dylanadunne@gmail.com" target="blank">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
             </div>
-            <!-- END LEADERSHIP -->
-            <!-- CONTACT/CONNENT -->
-            <!-- END CONTACT/CONNECT -->
-            <div id="contact-info">
-                <div>
-                    
-                </div>
-                <div id="icons">
-                    <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a class="icon-link" href="https://www.facebook.com/dylan.dunne.9" target="blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a class="icon-link" href="mailto:dylanadunne@gmail.com" target="blank">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    </a>
-                    <a class="icon-link" href="https://github.com/DefinitionOfDunne" target="blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
 </body>
 
