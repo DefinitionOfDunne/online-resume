@@ -8,7 +8,7 @@ body {
 }
 
 #content-wrapper {
-    background-color: lightgrey;
+    background-color: white;
 }
 
 header {
@@ -96,6 +96,10 @@ header {
     color: lightgrey;
 }
 
+.fa:hover {
+    color: #5a5858;
+}
+
 a.icon-link {
     text-decoration: none;
     font-size: 4rem;
@@ -104,7 +108,7 @@ a.icon-link {
 
 .main-section-header {
     text-transform: uppercase;
-    color: #4b4949;
+    color: black;
     font-size: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -163,11 +167,12 @@ a.icon-link {
     height: 100%;
     width: 75%;
     float: left;
+    background-color: white;
 }
 
 #main-section-right {
-    background-color: #4d4a4a;
-    color: white;
+    background-color: lightgrey;
+    color: #424040;
     height: 100%;
     width: 25%;
     float: right;
@@ -187,11 +192,11 @@ a.icon-link {
 }
 
 #toolbox h1 {
-    color: #380a0a;
+    color: #5a0404;
 }
 
 #contact-details h1 {
-    color: #380a0a;
+    color: #5a0404;
 }
 
 #programming-experience,
@@ -203,4 +208,14 @@ li,
 p,
 h4 {
     margin-top: 15px;
+}
+
+#email {
+    color: #424040;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: white;
+    text-shadow: 1px 1px black;
 }
