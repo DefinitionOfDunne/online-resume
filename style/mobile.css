@@ -1,5 +1,4 @@
 @media only screen and (max-width: 900px) {
-    header {}
     #left-widget {
         float: left;
         width: 100%;
@@ -39,10 +38,9 @@
         width: 100%;
         float: right;
     }
-    .main-section-header{
+    .main-section-header {
         text-align: center;
     }
-
     .row-content {
         width: 65%;
         margin: 0rem 0rem 0rem 8rem;

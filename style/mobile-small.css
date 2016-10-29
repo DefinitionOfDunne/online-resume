@@ -1,27 +1,26 @@
 @media only screen and (max-width: 560px) {
-	body{
-		font-size: 60%;
-	}
-
-	#name-top{
-		font-size: 2rem;
-	}
-	#name-bottom{
-		font-size: 4.5rem;
-	}
-	.main-section-group{
-		margin-bottom: 0rem !important;
-	}
-	.row-label {
-    text-transform: none;
-    width: 35%;
-	}
-	.row-content {
-    width: 65%;
-    margin: 0 auto;
-    text-align: right;
-	}
-	.info-title {
-		font-size: 1rem;
-	}
+    body {
+        font-size: 60%;
+    }
+    #name-top {
+        font-size: 2rem;
+    }
+    #name-bottom {
+        font-size: 4.5rem;
+    }
+    .main-section-group {
+        margin-bottom: 0rem !important;
+    }
+    .row-label {
+        text-transform: none;
+        width: 35%;
+    }
+    .row-content {
+        width: 65%;
+        margin: 0 auto;
+        text-align: right;
+    }
+    .info-title {
+        font-size: 1rem;
+    }
 }
