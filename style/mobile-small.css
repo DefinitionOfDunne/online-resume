@@ -2,6 +2,9 @@
     body {
         font-size: 60%;
     }
+    #left-widget{
+        text-align: left;
+    }
     #name-top {
         font-size: 2rem;
     }

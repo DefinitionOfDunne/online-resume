@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    padding: 0;
+    padding-bottom: 1rem;
     background: #380a0a;
     height: 30rem;
     color: lightgrey;
@@ -22,26 +22,26 @@ header {
     float: left;
     width: 60%;
     height: 100%;
-    text-align: center;
+    padding-left: 10%;
 }
 
 #right-widget {
     float: right;
-    width: 40%;
+    width: 30%;
     height: 100%;
 }
 
 #title-img {
     border-radius: 30rem;
     border: 3px solid black;
-    height: 20rem;
-    margin: 2rem auto;
+    height: 18rem;
+    margin: 3rem auto;
     display: block;
 }
 
 #name-container {
     width: 100%;
-    padding: .5rem;
+    padding: .5rem 0;
     display: block;
     text-transform: uppercase;
     margin: 2rem 0;
@@ -56,14 +56,13 @@ header {
 
 #name-bottom {
     font-size: 9rem;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     margin: 1rem 0;
 }
 
 #title-job {
-    font-size: 2.5rem;
-    display: inline-block;
-    text-transform: uppercase;
+    text-align: left;
+    font-size: 3rem;
 }
 
 #title-blockquote {
@@ -183,12 +182,11 @@ a.icon-link {
 }
 
 #contact-details {
-    text-align: center;
-    margin: 2rem 0;
+    text-align: left;
 }
 
 #contact-details p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #toolbox {
@@ -210,11 +208,11 @@ h4 {
 }
 
 #email {
-    color: #424040;
+    color: white;
     text-decoration: none;
 }
 
 #email:hover {
-    color: white;
-    text-shadow: 1px 1px black;
+    color: darkgrey;
+    text-shadow: 2px 1px black;
 }
