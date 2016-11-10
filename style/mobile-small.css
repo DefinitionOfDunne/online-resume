@@ -3,7 +3,7 @@
         font-size: 60%;
     }
     #left-widget{
-        text-align: left;
+        text-align: center;
     }
     #name-top {
         font-size: 2rem;
@@ -14,12 +14,18 @@
     .main-section-group {
         margin-bottom: 0rem !important;
     }
+    #title-job {
+        font-size: 2rem;
+    }
     .row-label {
         text-transform: none;
-        width: 35%;
+        width: 33%;
+    }
+    #contact-details p {
+        font-size: 1.3rem;
     }
     .row-content {
-        width: 65%;
+        width: 50%;
         margin: 0 auto;
         text-align: right;
     }
