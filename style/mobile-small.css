@@ -21,6 +21,9 @@
         text-transform: none;
         width: 33%;
     }
+    #contact-info {
+        height: 15rem;
+    }
     #contact-details p {
         font-size: 1.3rem;
     }

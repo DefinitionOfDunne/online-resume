@@ -21,7 +21,7 @@
     } 
     #contact-info {
         text-align: left;
-        height: 10rem;
+        height: 13rem;
     }
     .icons {
         width: 75%;
@@ -30,6 +30,7 @@
     }
     a.icon-link {
         text-decoration: none;
+        text-align: center;
         font-size: 4rem;
         margin: 2rem 0rem;
         float: left;

@@ -123,8 +123,8 @@ a.icon-link {
 
 .main-section-subheader {
     font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -201,6 +201,10 @@ a.icon-link {
     color: #5a0404;
 }
 
+#toolbox ul {
+    padding-bottom: 15px;
+}
+
 #contact-details h1 {
     color: #5a0404;
 }
@@ -217,6 +221,17 @@ h4 {
 }
 
 #email:hover {
+    color: darkgrey;
+    text-shadow: 2px 1px black;
+}
+#download-doc {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 1rem;
+    font-variant: small-caps;
+    color: white;
+}
+#download-doc:hover {
     color: darkgrey;
     text-shadow: 2px 1px black;
 }
