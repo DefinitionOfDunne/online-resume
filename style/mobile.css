@@ -19,16 +19,14 @@
     #name-bottom {
         margin-left: -5px;
     }
-
     #title-blockquote {
-        color: white;
+        color: #092b94;
         margin-top: 1.5rem;
         width: 95%;
         text-align: center;
     }
     #quotist {
         text-align: center;
-    
     }
     #contact-info {
         text-align: left;
@@ -56,6 +54,13 @@
         height: 100%;
         width: 100%;
         float: right;
+    }
+    #toolbox {
+        padding-bottom: 30px;
+    }
+    #toolbox ul {
+        text-align: center;
+        padding: 0;
     }
     .main-section-header {
         text-align: center;
