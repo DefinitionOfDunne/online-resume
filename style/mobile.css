@@ -18,10 +18,20 @@
     }
     #title-job {
         text-align: center;
-    } 
+    }
+    #title-blockquote {
+        color: white;
+        margin-top: 1.5rem;
+        width: 95%;
+        text-align: center;
+    }
+    #quotist {
+        text-align: center;
+    
+    }
     #contact-info {
         text-align: left;
-        height: 13rem;
+        height: 20rem;
     }
     .icons {
         width: 75%;

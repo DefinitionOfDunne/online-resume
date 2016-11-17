@@ -68,14 +68,16 @@ header {
 }
 
 #title-blockquote {
+    color: white;
     margin-top: 2rem;
-    width: 75%;
+    width: 90%;
     display: inline-block;
     font-style: italic;
     font-size: 1rem;
 }
 
 #quotist {
+    color: white;
     width: 100%;
     font-weight: bolder;
     font-style: italic;
