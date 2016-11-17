@@ -16,9 +16,10 @@
     #contact-details {
         text-align: center;
     }
-    #title-job {
-        text-align: center;
+    #name-bottom {
+        margin-left: -5px;
     }
+
     #title-blockquote {
         color: white;
         margin-top: 1.5rem;
